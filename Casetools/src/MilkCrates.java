@@ -3,6 +3,8 @@ public class MilkCrates {
 	int num_crates;
 	int bottles_per_crate;
 	double unit_cost_bottle;
+	double cost_per_crate;
+	double total_cost;
 	
 	MilkCrates(int num_crates,double unit_cost_bottle)
 	{
